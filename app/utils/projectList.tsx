@@ -1,311 +1,64 @@
-import {
-  AntdSVG,
-  CSSSVG,
-  ExpressSVG,
-  JavascriptSVG,
-  MagentaKitchenSVG,
-  MongoDBSVG,
-  MongooseSVG,
-  PrimeReactSVG,
-  ReactHookFormSVG,
-  ReactSVG,
-  SassSVG,
-  ShadcnLandingSVG,
-  ShadcnSVG,
-  ShopApiSVG,
-  Sk8terSVG,
-  SwaggerSVG,
-  TailwindSVG,
-  TypescriptSVG,
-  VueSVG,
-} from "../components/ui/icons";
-import { ProjectType } from "../types";
-import { NextSVG } from "../components/ui/icons/index";
-
-export const ProjectList: ProjectType[] = [
+export const papers = [
   {
-    icon: <ShadcnLandingSVG />,
-    title: "Shadcn/Vue Landing page",
-    subtitle: "Landing page template",
-    technologies: [
-      {
-        name: "Vue",
-        icon: (
-          <VueSVG
-            color="#61DAFB"
-            size={16}
-          />
-        ),
-      },
-
-      {
-        name: "TypeScript",
-        icon: (
-          <TypescriptSVG
-            color="#3178C6"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Shadcn-Vue",
-        icon: (
-          <ShadcnSVG
-            color="#000000"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Tailwind",
-        icon: (
-          <TailwindSVG
-            color="#06B6D4"
-            size={16}
-          />
-        ),
-      },
-    ],
-    description:
-      "Vue.js-powered landing page with all the essentials to showcase your product, service, or event. Enjoy a fully responsive, customizable, dark mode-enabled experience with optimized meta tags and an intuitive user interface.",
-    imgUrl:
-      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue-landing.jpg",
-    videoUrl: "",
-    githubUrl: "https://github.com/leoMirandaa/shadcn-vue-landing-page.git",
-    websiteUrl: "https://shadcn-vue-landing-page.vercel.app/",
+    title: "Impact of COVID-19 on Commute Times (Policy Memo)",
+    summary:
+      "Regression analysis comparing pre-pandemic (2019) and post-vaccine (2022) commute times.",
+    link: "/Memo_Plcy465.pdf",
+    year: 2024,
   },
   {
-    icon: <ShadcnLandingSVG />,
-    title: "Shadcn Landing page",
-    subtitle: "Landing page template",
-    technologies: [
-      {
-        name: "React",
-        icon: (
-          <ReactSVG
-            color="#61DAFB"
-            size={16}
-          />
-        ),
-      },
+    title:
+      "Registering Informality: Indian Unincorporated Enterprises and State Recordkeeping",
+    summary:
+      "Critical geography paper examining NSSO survey design and informal labor measurement.",
+    link: "/Geog460_Informality.docx",
+    year: 2024,
+  },
+  {
+    title:
+      "Communal Threats & Community Resilience: Panchayat Raj Institutions",
+    summary:
+      "Anthropology / postcolonial essay on PRIs, reconciliation, and political society.",
+    link: "/Singh_461_Panchayat.docx",
+    year: 2023,
+  },
+];
 
-      {
-        name: "TypeScript",
-        icon: (
-          <TypescriptSVG
-            color="#3178C6"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Shadcn",
-        icon: (
-          <ShadcnSVG
-            color="#000000"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Tailwind",
-        icon: (
-          <TailwindSVG
-            color="#06B6D4"
-            size={16}
-          />
-        ),
-      },
-    ],
-    description:
-      "Landing page  with essential sections to promote a particular product, service, event, or offer. It is fully responsive, customizable, has dark mode, meta tags and user-friendly interface.",
-    imgUrl: "/videos/shadcn-landing-page.webp",
-    videoUrl: "/videos/shadcn-landing-page.mp4",
-    githubUrl: "https://github.com/leoMirandaa/shadcn-landing-page.git",
-    websiteUrl: "https://shadcn-landing-page.vercel.app/",
+export const projects = [
+  {
+    title:
+      "Spatial Autocorrelation and Predictive Modeling of NC Voter Distribution (Interactive)",
+    tagline:
+      "Analyzing 8.3M voter records to measure electoral clustering and predict turnout.",
+    link: "/NPI.html",
+    thumbnail: "/images/nc-voter-thumb.png",
   },
   {
-    icon: <MagentaKitchenSVG />,
-    title: "Magenta Kitchen",
-    subtitle: "Restaurant Menu",
-    technologies: [
-      {
-        name: "React",
-        icon: (
-          <ReactSVG
-            color="#61DAFB"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Next js",
-        icon: (
-          <NextSVG
-            color="#000"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "CSS Modules",
-        icon: (
-          <CSSSVG
-            color="#1572B6"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Antd",
-        icon: (
-          <AntdSVG
-            color="#1d93ff"
-            size={16}
-          />
-        ),
-      },
-    ],
-    description:
-      "Restaurant menu created with the purpose to have an elegant digital menu, with the capability to use it with QR code and show the elemental restaurant information and all the dishes available.",
-    imgUrl: "/videos/magenta.webp",
-    videoUrl: "/videos/magenta.mp4",
-    githubUrl: "https://github.com/leomirandaa/restaurant-menu.git",
-    websiteUrl: "https://magentakitchen.vercel.app/",
+    title: "Spatial Dynamics of Remote Work Adoption (Interactive)",
+    tagline:
+      "Choropleth and interactive visualizations of county-level remote work changes.",
+    link: "/Singh_FinalProject.html", // ✅ fixed filename (no space)
+    thumbnail: "/images/remote-work-thumb.png",
   },
   {
-    icon: <Sk8terSVG />,
-    title: "Sk8ter",
-    subtitle: "E-commerce",
-    technologies: [
-      {
-        name: "JavaScript",
-        icon: (
-          <JavascriptSVG
-            color="#F7DF1E"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "React",
-        icon: (
-          <ReactSVG
-            color="#61DAFB"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "TypeScript",
-        icon: (
-          <TypescriptSVG
-            color="#3178C6"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Sass",
-        icon: (
-          <SassSVG
-            color="#CC6699"
-            size={16}
-          />
-        ),
-      },
-
-      {
-        name: "Prime React",
-        icon: (
-          <PrimeReactSVG
-            color="#06B6D4"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "React Hook Form",
-        icon: (
-          <ReactHookFormSVG
-            color="#EC5990"
-            size={16}
-          />
-        ),
-      },
-    ],
-    description:
-      "Dynamic e-commerce web system selling skateboards in a friendly and intuitive interface. The system has authentication, a dashboard and also dark mode.",
-    imgUrl: "/videos/sk8ter.webp",
-    videoUrl: "/videos/sk8ter.mp4",
-    githubUrl: "https://github.com/leoMirandaa/sk8ter-shop",
-    websiteUrl: "",
+    title: "Understanding Tuition Determinants (Interactive)",
+    tagline:
+      "Interactive dashboard / visualization of tuition predictors and spatial patterns.",
+    link: "/STOR455_Proj.html",
+    thumbnail: "/images/tuition-thumb.png",
   },
   {
-    icon: <ShopApiSVG />,
-    title: "Shop API",
-    subtitle: "E-commerse back-end",
-    technologies: [
-      {
-        name: "JavaScript",
-        icon: (
-          <JavascriptSVG
-            color="#F7DF1E"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "TypeScript",
-        icon: (
-          <TypescriptSVG
-            color="#3178C6"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Express",
-        icon: (
-          <ExpressSVG
-            color="#000000"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "MongoDB",
-        icon: (
-          <MongoDBSVG
-            color="#47A248"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Mongoose",
-        icon: (
-          <MongooseSVG
-            color="#880000"
-            size={16}
-          />
-        ),
-      },
-      {
-        name: "Swagger",
-        icon: (
-          <SwaggerSVG
-            color="#85EA2D"
-            size={16}
-          />
-        ),
-      },
-    ],
-    description:
-      "Backed e-commerce project that allows to manage users, categories, coupons and products with the endpoints ready to play with. Includes swagger docs.",
-    imgUrl: "/videos/shop-api.webp",
-    videoUrl: "",
-    githubUrl: "https://github.com/leomirandaa/shop-API.git",
-    websiteUrl: "NONE",
+    title: "E-Waste Mapping & Operational Platform Analysis (Interactive)",
+    tagline:
+      "Web scraping of data center locations, geospatial mapping, choropleth visualization of per capita e-waste generation, and flow analysis comparing service consumption vs. waste burden.",
+    link: "https://jpcrume.wixsite.com/ewaste/operational-waste",
+    thumbnail: "/images/ewaste-thumb.png",
+  },
+  {
+    title: "NC Voter Distribution Presentation",
+    tagline:
+      "Neighbor matrix logic, decision tree algorithm (Gini impurity), spatial autocorrelation analysis, and interactive GIS visualizations.",
+    link: "/Presentation-3.html",
+    thumbnail: "/images/presentation3-thumb.png",
   },
 ];

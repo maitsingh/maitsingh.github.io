@@ -1,4 +1,5 @@
-import { ProjectList } from "@/app/utils";
+"use client";
+import { ProjectList } from "@/app/utils/projectList";  // <-- fixed path
 import { ProjectType } from "@/app/types";
 import { Project } from "../Project";
 

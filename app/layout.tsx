@@ -6,9 +6,10 @@ import { NavbarSection } from "./components/ui/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 import "./globals.css";
 
+// Updated metadata
 export const metadata: Metadata = {
-  title: "Leo Miranda",
-  description: "Leo Miranda | Frontend developer portfolio",
+  title: "Maitreyee Singh",
+  description: "Research Portfolio",
 };
 
 export default function RootLayout({

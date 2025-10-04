@@ -1,9 +1,9 @@
 import { whoAmIDataType } from "../types/whoAmIData";
 
 export const whoAmIData: whoAmIDataType = {
-  fullName: "Leo Miranda",
-  profession: "Frontend developer",
+  fullName: "Maitreyee Singh",
+  profession: "Researcher: Data, development, critical theory",
   whoAmI:
-    "Hello! I am a developer who really enjoys transforming ideas into functional software that exceeds expectations. I like to be constantly learning from other professionals, teams and communities to stay on top of the latest industry trends. Being a developer is not just a job for me; it is an activity that I absolutely appreciate all the time.",
-  quote: "I really like creating software solutions",
+    "I use GIS and statistical modeling to examine how geography mediates access to political representation and economic opportunity, and engage with postcolonial theory to analyze how governance structures produce spatial inequality.",
+  quote: "Mapping patterns while questioning how they came to be",
 };
