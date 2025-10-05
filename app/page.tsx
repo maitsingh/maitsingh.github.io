@@ -8,7 +8,7 @@ export default function Home() {
         Maitreyee Singh
       </h1>
 
-      <p className="max-w-2xl text-gray-700 text-lg leading-relaxed">
+      <p className="max-w-2xl text-gray-600 text-lg leading-relaxed">
        I study spatial dimensions of political economy, combining econometrics, predictive modeling, and GIS with critical theory. 
         I consider both what patterns exist and how measurement practices themselves shape political possibilities. Data both 
         reveals and reproduces structures of power; I am curious about how this happens.
