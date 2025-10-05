@@ -9,9 +9,9 @@ export default function Home() {
       </h1>
 
       <p className="max-w-2xl text-gray-700 text-lg leading-relaxed">
-        I use GIS, spatial econometrics, and predictive modeling to examine how geography mediates
-        access to political representation, economic opportunity, and public goods, asking not only
-        what patterns exist but also how measurement practices themselves shape political possibilities.
+       I study spatial dimensions of political economy, combining econometrics, predictive modeling, and GIS with critical theory. 
+        I consider both what patterns exist and how measurement practices themselves shape political possibilities. Data both 
+        reveals and reproduces structures of power; I am curious about how this happens.
       </p>
 
       <div className="mt-10 flex gap-4">
