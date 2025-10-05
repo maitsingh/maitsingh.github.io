@@ -6,16 +6,16 @@ export default function AboutPage() {
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold mb-6">About</h1>
 
-        <p className="text-gray-700 leading-relaxed text-lg">
-          I map inequality. My projects examine voter clustering in North Carolina, informal labor in India, college tuition determinants, and post-pandemic commute patterns—asking how geography shapes who gets access to political power, economic opportunity, and public goods.
+        <p className="text-gray-500 leading-relaxed text-lg">
+          I study how power and inequality operate across space, using GIS, econometrics, and statistical modeling to examine access to political representation, labor markets, and public services.
         </p>
 
-        <p className="text-gray-700 leading-relaxed text-lg mt-6">
-          I work with spatial data (GIS, regression models, interactive maps) and critical theory (postcolonial studies, labor geography). The quantitative work reveals patterns; the theoretical work asks why those patterns exist and what measuring them does politically. Some projects are statistical analyses. Others are essays interrogating how the state counts informal workers or how colonial governance structures persist in modern India.
+        <p className="text-gray-500 leading-relaxed text-lg mt-6">
+          I make social systems visible while questioning the terms of their visibility—whether state surveys render informal workers legible for exploitation, electoral maps naturalize partisan clustering, or institutional metrics obscure structural inequities.
         </p>
 
-        <p className="text-gray-700 leading-relaxed text-lg mt-6">
-          I&apos;m interested in what data shows and what it hides—whether state surveys make workers legible for exploitation, tuition models obscure elite institution pricing, or maps naturalize partisan segregation.
+        <p className="text-gray-500 leading-relaxed text-lg mt-6">
+          I work with quantitative methods (spatial econometrics, predictive models) and critical theory (postcolonial studies, labor geography). The statistical analyses reveal patterns; the theoretical work asks why those patterns exist and what measuring them does politically. Some projects are data-driven inquiries. Others are essays interrogating how the state audits informality in labor or governance.
         </p>
       </div>
     </main>
